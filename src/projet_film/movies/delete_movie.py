@@ -1,8 +1,4 @@
-movie = []
-
-def add_movie():
-    titre = input("Titre du film : ")
-    movie.append(titre)
+from create_movie import movie
 
 def remove_movie():
     titre = input("Titre du film à supprimer : ")
@@ -11,5 +7,3 @@ def remove_movie():
         print(f"Le film '{titre}' a été supprimé.")
     else:
         print(f"Le film '{titre}' n'existe pas dans la liste.")
-
-
